@@ -29,4 +29,10 @@
 <h3>Tangkapan Layar Komponen Penting</h3>
 <ol>
     <li>Home Page</li> <img src = "Gambar/HomePage.png" width = "600">
+    <li>Map</li> <img src = "Gambar/Map.png" width = "600"> <img src = "Gambar/Map2.png" width = "600">
+    <li>Create Point</li> <img src = "Gambar/CreatePoint.png" width = "600">
+    <li>Edit Point</li> <img src = "Gambar/EditPoint.png" width = "600">
+    <li>Download Data</li> <img src = "Gambar/Download Data.png" width = "600">
+    <li>Table Point</li> <img src = "Gambar/Table.png" width = "600">
+    <li>Dashboard</li> <img src = "Gambar/Dashboard.png" width = "600">
 </ol>

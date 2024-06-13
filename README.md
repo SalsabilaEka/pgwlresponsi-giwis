@@ -28,5 +28,5 @@
 
 <h3>Tangkapan Layar Komponen Penting</h3>
 <ol>
-    <li>Home Page</li> <img src = "Gambar/HomePage" width = "600">
+    <li>Home Page</li> <img src = "Gambar/HomePage.png" width = "600">
 </ol>

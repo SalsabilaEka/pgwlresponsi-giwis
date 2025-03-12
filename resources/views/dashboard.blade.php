@@ -54,7 +54,7 @@
 
     <!-- Chart.js Script -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             var ctx = document.getElementById('religionChart').getContext('2d');
             var religionChart = new Chart(ctx, {
                 type: 'bar',

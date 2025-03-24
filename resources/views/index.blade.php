@@ -161,23 +161,11 @@
 
     </script>
     <script>
-        // Basemap MapID
-        const MAP_SERVICE_KEY =
-        "67cd33054a98c422783c2294"; // Ganti dengan API key Anda yang didapat dari menu map services di geo.mapid.io
-        var mapidLayer = L.tileLayer(
-            `https://basemap.mapid.io/styles/street-new-generation/{z}/{x}/{y}.png?key=${MAP_SERVICE_KEY}`, {
-                maxZoom: 19,
-                pitch: 60,
-                attribution: '&copy; <a href="https://www.mapid.io/">MapID</a> contributors'
-            });
-
-        // Map initialization
+        //Map
         var map = L.map('map').setView([-7.0, 110.4], 12);
 
-        // Add MapID layer to the map
-        mapidLayer.addTo(map);
-
-        // Define other tile layers (optional)
+        // Basemap
+        // Define tile layers
         var osmLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -189,9 +177,11 @@
                 attribution: '&copy; <a href="https://www.mapbox.com/">Mapbox</a>'
             });
 
+        // Add default layer to the map
+        osmLayer.addTo(map);
+
         // Create a layer control and add to the map
         var baseMaps = {
-            "MapID": mapidLayer,
             "OpenStreetMap": osmLayer,
             "Satellite": mapboxSatelliteLayer
         };
